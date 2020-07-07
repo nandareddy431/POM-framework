@@ -21,9 +21,16 @@ public class LoginPage extends BasePage {
 	public String getLoginPageTitle() {
 		return driver.getTitle();
 	}
-
+     
+	
+	
+	
 	public boolean isSignUpDisplayed() {
+		System.out.println("nanda"
+				                        + "reddy");
+		
 		return driver.findElement(signUpLink).isDisplayed();
+		
 	}
 
 	public HomePage doLogin(String username, String pwd) {
