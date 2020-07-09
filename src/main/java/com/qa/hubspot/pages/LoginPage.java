@@ -26,8 +26,7 @@ public class LoginPage extends BasePage {
 	
 	
 	public boolean isSignUpDisplayed() {
-		System.out.println("nanda"
-				                        + "reddy");
+		
 		
 		return driver.findElement(signUpLink).isDisplayed();
 		
